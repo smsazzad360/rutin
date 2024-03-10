@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+}
+.grid-containt{
+    display:grid;
+    grid-template-areas:
+     
+    'name name '
+    'date1 sub1'
+    'date2 sub2'
+    'date3 sub3'
+    'sub4 date4'
+    'sub5 date5'
+    'sub6 date6'
+    
+    
+    ;
+    height:auto;
+    width:auto;
+    background-color:antiquewhite;
+    border: 2px solid rgb(0, 0, 0);
+
+}
+.align{
+    text-align:center;
+    background-color:#5a0616;
+}
+.grid-containt>div{
+    background-color:navy;
+    color:rgb(255, 255, 255);
+    margin:2px;
+    border:2px solid black;
+    font-size:small;
+
+}
+.item-1{grid-area: name;}
+.item-2{grid-area: date1;}
+.item-3{grid-area: sub1;}
+.item-4{ grid-area :date2;}
+.item-5{grid-area: sub2;}
+.item-6{grid-area: date3;}
+.item-7{grid-area:  sub3;}
+.item-9{grid-area:  date4;}
+.item-10{grid-area: sub4;}
+.item-11{grid-area: date5;}
+.item-12{grid-area: sub5;}
+.item-13{grid-area: date6;}
+.item-14{grid-area: sub6;}
+.color{
+    background-color:#5a0616;
+}
+.grid-containt>div:hover{
+    background-color: crimson;
+    box-shadow:2px 4px  rgb(88, 87, 87);
+}
+.color:hover{ 
+    background-color:rgb(67, 68, 10);
+}
